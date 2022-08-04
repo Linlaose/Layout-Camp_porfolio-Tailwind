@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  h2{
+    @apply text-h2-fontSize leading-normal font-medium
+  };
+  span{
+    @apply text-2xl leading-normal font-semibold
+  };
+  p{
+    @apply text-2xl leading-normal font-light
+  }
+  li{
+    @apply pl-23 border-l border-x-blueGray-400
+  }
+}
